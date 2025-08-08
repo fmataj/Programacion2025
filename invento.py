@@ -17,7 +17,8 @@ def enviar_whatsapp(numero: str,
 if __name__== "__main__":
     numero = "50685179043"
     mensaje = "Despierta profe ya lo hice"
-    hora = 13
-    minuto = 30
+    hora = 7
+    minuto = 54
     
     enviar_whatsapp(numero,mensaje,hora,minuto)
+    print("")
